@@ -1,0 +1,23 @@
+h4{
+    font-weight: 300;
+    font-weight: 200;
+}
+
+.income-expense{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+.income-expense > div:nth-of-type(1){
+    border-right: 1px solid white;
+    padding: 20px;
+    
+}
